@@ -1,0 +1,434 @@
+{
+  "4": {
+    "propietarios": [
+      {
+        "fingerprint": "ENERO 2023 MOVIMIENTO CONTABLE PROPIETARIO AMAYA AMAYA NANCY CONSUELO / SALAMANCA RODRIGUEZ MANUEL CC / CC: 39525579 / 4178758 DIRECCION INMUEBLE: AV CL 24 69 23 LC 13A Cuenta Nombre Cuenta Nit Nombre Tercero Tip o No. Transaccion Fecha No. Inm Tipo Cau sa Detalle Debito Credito Movimiento 281515 PROPIETARIOS 39525579 AMAYA AMAYA NANCY CONSUELO F 488114 01/01/2023 1306 1 Canon Enero/2023 $ 0 $ 506",
+        "value": "AMAYA AMAYA NANCY CONSUELO / SALAMANCA RODRIGUEZ MANUEL"
+      },
+      {
+        "fingerprint": "ENERO 2023 MOVIMIENTO CONTABLE PROPIETARIO GOMEZ GIRALDO ADOLFO MARIA CC: 3607226 DIRECCION INMUEBLE: CL 9 41 B 15 Cuenta Nombre Cuenta Nit Nombre Tercero Tip o No. Transaccion Fecha No. Inm Tipo Cau sa Detalle Debito Credito Movimiento 281515 PROPIETARIOS 3607226 GOMEZ GIRALDO ADOLFO MARIA F 487907 01/01/2023 145 1 Canon Enero/2023 $ 0 $ 15.000.221 $ 15.000.221 281515 PROPIETARIOS 3607226 GOMEZ G",
+        "value": "GOMEZ GIRALDO ADOLFO MARIA"
+      },
+      {
+        "fingerprint": "ENERO 2023 MOVIMIENTO CONTABLE PROPIETARIO LILCHYN DE HERNANDEZ MARIA ENIDT CC: 41316925 DIRECCION INMUEBLE: CL 17A 68 D – 53 / 55 (CL 17A 68D 53 Dirección Catastral) Cuenta Nombre Cuenta Nit Nombre Tercero Tip o No. Transaccion Fecha No. Inm Tipo Cau sa Detalle Debito Credito Movimiento 281515 PROPIETARIOS 41316925 LILCHYN DE HERNANDEZ MARIA ENIDT F 487910 01/01/2023 153 1 Canon Enero/2023 $ 0 $ ",
+        "value": "LILCHYN DE HERNANDEZ MARIA ENIDT"
+      },
+      {
+        "fingerprint": "ENERO 2023 MOVIMIENTO CONTABLE PROPIETARIO ROBLES ANGEL ROBERTO CC: 19352183 DIRECCION INMUEBLE: AV KR 7 113 16 OFICINA 4 PISO Cuenta Nombre Cuenta Nit Nombre Tercero Tip o No. Transaccion Fecha No. Inm Tipo Cau sa Detalle Debito Credito Movimiento 281515 PROPIETARIOS 19352183 ROBLES ANGEL ROBERTO F 487964 01/01/2023 367 1 Canon Enero/2023 $ 0 $ 5.950.336 $ 5.950.336 281515 PROPIETARIOS 19352183 R",
+        "value": "ROBLES ANGEL ROBERTO"
+      },
+      {
+        "fingerprint": "ENERO 2023 MOVIMIENTO CONTABLE PROPIETARIO INVERSIONES JASSIR NAFFAH Y CIA LTDA NIT: 830120059 DIRECCION INMUEBLE: KR 13 32 77 LOCAL 10 Cuenta Nombre Cuenta Nit Nombre Tercero Tip o No. Transaccion Fecha No. Inm Tipo Cau sa Detalle Debito Credito Movimiento 281515 PROPIETARIOS 830120059 INVERSIONES JASSIR NAFFAH Y CIA LTDA F 488003 01/01/2023 752 1 Canon Enero/2023 $ 0 $ 2.477.420 $ 2.477.420 2815",
+        "value": "INVERSIONES JASSIR NAFFAH Y CIA LTDA"
+      },
+      {
+        "fingerprint": "MOVIMIENTO CONTABLE PROPIETARIO GRILLO RUBIANO LILIANA / GRILLO RUBIANO FERNANDO ANTONIO",
+        "value": "GRILLO RUBIANO LILIANA / GRILLO RUBIANO FERNANDO ANTONIO"
+      }
+    ],
+    "arrendatario": [
+      {
+        "fingerprint": "ENERO 2023 MOVIMIENTO CONTABLE PROPIETARIO AMAYA AMAYA NANCY CONSUELO / SALAMANCA RODRIGUEZ MANUEL CC / CC: 39525579 / 4178758 DIRECCION INMUEBLE: AV CL 24 69 23 LC 13A Cuenta Nombre Cuenta Nit Nombre Tercero Tip o No. Transaccion Fecha No. Inm Tipo Cau sa Detalle Debito Credito Movimiento 281515 PROPIETARIOS 39525579 AMAYA AMAYA NANCY CONSUELO F 488114 01/01/2023 1306 1 Canon Enero/2023 $ 0 $ 506",
+        "value": "ALIMENTOS CRIOLLOS S.A."
+      },
+      {
+        "fingerprint": "ENERO 2023 MOVIMIENTO CONTABLE PROPIETARIO GOMEZ GIRALDO ADOLFO MARIA CC: 3607226 DIRECCION INMUEBLE: CL 9 41 B 15 Cuenta Nombre Cuenta Nit Nombre Tercero Tip o No. Transaccion Fecha No. Inm Tipo Cau sa Detalle Debito Credito Movimiento 281515 PROPIETARIOS 3607226 GOMEZ GIRALDO ADOLFO MARIA F 487907 01/01/2023 145 1 Canon Enero/2023 $ 0 $ 15.000.221 $ 15.000.221 281515 PROPIETARIOS 3607226 GOMEZ G",
+        "value": "BUHLER SAS"
+      },
+      {
+        "fingerprint": "ENERO 2023 MOVIMIENTO CONTABLE PROPIETARIO LILCHYN DE HERNANDEZ MARIA ENIDT CC: 41316925 DIRECCION INMUEBLE: CL 17A 68 D – 53 / 55 (CL 17A 68D 53 Dirección Catastral) Cuenta Nombre Cuenta Nit Nombre Tercero Tip o No. Transaccion Fecha No. Inm Tipo Cau sa Detalle Debito Credito Movimiento 281515 PROPIETARIOS 41316925 LILCHYN DE HERNANDEZ MARIA ENIDT F 487910 01/01/2023 153 1 Canon Enero/2023 $ 0 $ ",
+        "value": "TOTAL LOGISTICS CARGO SAS"
+      },
+      {
+        "fingerprint": "ENERO 2023 MOVIMIENTO CONTABLE PROPIETARIO ROBLES ANGEL ROBERTO CC: 19352183 DIRECCION INMUEBLE: AV KR 7 113 16 OFICINA 4 PISO Cuenta Nombre Cuenta Nit Nombre Tercero Tip o No. Transaccion Fecha No. Inm Tipo Cau sa Detalle Debito Credito Movimiento 281515 PROPIETARIOS 19352183 ROBLES ANGEL ROBERTO F 487964 01/01/2023 367 1 Canon Enero/2023 $ 0 $ 5.950.336 $ 5.950.336 281515 PROPIETARIOS 19352183 R",
+        "value": "GJ COMUNICACIONES SAS"
+      },
+      {
+        "fingerprint": "ENERO 2023 MOVIMIENTO CONTABLE PROPIETARIO INVERSIONES JASSIR NAFFAH Y CIA LTDA NIT: 830120059 DIRECCION INMUEBLE: KR 13 32 77 LOCAL 10 Cuenta Nombre Cuenta Nit Nombre Tercero Tip o No. Transaccion Fecha No. Inm Tipo Cau sa Detalle Debito Credito Movimiento 281515 PROPIETARIOS 830120059 INVERSIONES JASSIR NAFFAH Y CIA LTDA F 488003 01/01/2023 752 1 Canon Enero/2023 $ 0 $ 2.477.420 $ 2.477.420 2815",
+        "value": "EXCELCREDIT S.A."
+      },
+      {
+        "fingerprint": "MOVIMIENTO CONTABLE PROPIETARIO GRILLO RUBIANO LILIANA / GRILLO RUBIANO FERNANDO ANTONIO MOVIMIENTO CONTABLE ARRENDATARIO JOSEPH LOVE S.A.S",
+        "value": "JOSEPH LOVE S.A.S"
+      },
+      {
+        "fingerprint": "MOVIMIENTO CONTABLE PROPIETARIO GRILLO RUBIANO LILIANA / GRILLO RUBIANO FERNANDO ANTONIO MOVIMIENTO CONTABLE ARRENDATARIO PRODUCTOS CAPILARES LZ SAS",
+        "value": "PRODUCTOS CAPILARES LZ SAS"
+      },
+      {
+        "fingerprint": "MOVIMIENTO CONTABLE PROPIETARIO GRILLO RUBIANO LILIANA / GRILLO RUBIANO FERNANDO ANTONIO MOVIMIENTO CONTABLE ARRENDATARIO ESTRUCTURAS SOSTENIBLES S.A.S.",
+        "value": "ESTRUCTURAS SOSTENIBLES S.A.S."
+      },
+      {
+        "fingerprint": "MOVIMIENTO CONTABLE PROPIETARIO AMAYA AMAYA NANCY CONSUELO MOVIMIENTO CONTABLE ARRENDATARIO DIGITAL MARKETPLACE",
+        "value": "DIGITAL MARKETPLACE"
+      },
+      {
+        "fingerprint": "MOVIMIENTO CONTABLE PROPIETARIO AMAYA AMAYA NANCY CONSUELO MOVIMIENTO CONTABLE ARRENDATARIO COLVANES S A S",
+        "value": "COLVANES S A S"
+      },
+      {
+        "fingerprint": "MOVIMIENTO CONTABLE PROPIETARIO SOCIEDAD DONOK SAS MOVIMIENTO CONTABLE ARRENDATARIO CENTRY CARROCERIAS SAS",
+        "value": "CENTRY CARROCERIAS SAS"
+      },
+      {
+        "fingerprint": "MOVIMIENTO CONTABLE PROPIETARIO KIRA SAS MOVIMIENTO CONTABLE ARRENDATARIO YILIN SAS",
+        "value": "YILIN SAS"
+      }
+    ]
+  },
+  "6": {
+    "propietario": [
+      {
+        "fingerprint": "CERTIFICACIÓN DE RETENCIONES DE ICA Bogotá, martes, 10 de marzo de 2026 El suscrito Contador Publico de ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, identificada con NIT 860.026.620-1, certifica que para el año 2023: ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, en calidad de mandataria y administradora de inmuebles de propiedad de ROBLES ANGEL ROBERTO, identificado con CC 19.352.183, certifica que, de",
+        "value": "ROBLES ANGEL ROBERTO"
+      },
+      {
+        "fingerprint": "CERTIFICACIÓN DE RETENCIONES DE ICA Bogotá, martes, 10 de marzo de 2026 El suscrito Contador Publico de ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, identificada con NIT 860.026.620-1, certifica que para el año 2023: ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, en calidad de mandataria y administradora de inmuebles de propiedad de SALGADO QUINTERO FERNANDO, identificado con CC 19.375.937, certifica qu",
+        "value": "SALGADO QUINTERO FERNANDO"
+      },
+      {
+        "fingerprint": "CERTIFICACIÓN DE RETENCIONES DE ICA Bogotá, martes, 10 de marzo de 2026 El suscrito Contador Publico de ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, identificada con NIT 860.026.620-1, certifica que para el año 2023: ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, en calidad de mandataria y administradora de inmuebles de propiedad de GRILLO RUBIANO LILIANA, identificado con CC 35.461.095, certifica que, ",
+        "value": "GRILLO RUBIANO LILIANA"
+      },
+      {
+        "fingerprint": "CERTIFICACIÓN DE RETENCIONES DE ICA Bogotá, martes, 10 de marzo de 2026 El suscrito Contador Publico de ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, identificada con NIT 860.026.620-1, certifica que para el año 2023: ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, en calidad de mandataria y administradora de inmuebles de propiedad de GOMEZ GIRALDO ADOLFO MARIA, identificado con CC 3.607.226, certifica qu",
+        "value": "GOMEZ GIRALDO ADOLFO MARIA"
+      },
+      {
+        "fingerprint": "CERTIFICACIÓN DE RETENCIONES DE ICA Bogotá, martes, 10 de marzo de 2026 El suscrito Contador Publico de ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, identificada con NIT 860.026.620-1, certifica que para el año 2023: ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, en calidad de mandataria y administradora de inmuebles de propiedad de AMAYA AMAYA NANCY CONSUELO, identificado con CC 39.525.579, certifica q",
+        "value": "AMAYA AMAYA NANCY CONSUELO"
+      },
+      {
+        "fingerprint": "CERTIFICACIÓN DE RETENCIONES DE ICA Bogotá, martes, 10 de marzo de 2026 El suscrito Contador Publico de ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, identificada con NIT 860.026.620-1, certifica que para el año 2023: ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, en calidad de mandataria y administradora de inmuebles de propiedad de LILCHYN DE HERNANDEZ MARIA ENIDT, identificado con CC 41.316.925, certi",
+        "value": "LILCHYN DE HERNANDEZ MARIA ENIDT"
+      },
+      {
+        "fingerprint": "CERTIFICACIÓN DE RETENCIONES DE ICA Bogotá, martes, 10 de marzo de 2026 El suscrito Contador Publico de ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, identificada con NIT 860.026.620-1, certifica que para el año 2023: ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, en calidad de mandataria y administradora de inmuebles de propiedad de GRILLO RUBIANO FERNANDO ANTONIO, identificado con CC 79.320.374, certif",
+        "value": "GRILLO RUBIANO FERNANDO ANTONIO"
+      },
+      {
+        "fingerprint": "CERTIFICACIÓN DE RETENCIONES DE ICA Bogotá, martes, 10 de marzo de 2026 El suscrito Contador Publico de ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, identificada con NIT 860.026.620-1, certifica que para el año 2023: ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, en calidad de mandataria y administradora de inmuebles de propiedad de INVERSIONES JASSIR NAFFAH Y CIA LTDA, identificado con NIT 830.120.059,",
+        "value": "INVERSIONES JASSIR NAFFAH Y CIA LTDA"
+      },
+      {
+        "fingerprint": "CERTIFICACIÓN DE RETENCIONES DE ICA Bogotá, martes, 10 de marzo de 2026 El suscrito Contador Publico de ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, identificada con NIT 860.026.620-1, certifica que para el año 2023: ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, en calidad de mandataria y administradora de inmuebles de propiedad de SOCIEDAD DONOK SAS, identificado con NIT 900.293.212, certifica que, de",
+        "value": "SOCIEDAD DONOK SAS"
+      },
+      {
+        "fingerprint": "CERTIFICACIÓN DE RETENCIONES DE ICA Bogotá, martes, 10 de marzo de 2026 El suscrito Contador Publico de ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, identificada con NIT 860.026.620-1, certifica que para el año 2023: ACEVEDO Y CIA. SAS ASESORES INMOBILIARIOS, en calidad de mandataria y administradora de inmuebles de propiedad de KIRA SAS, identificado con NIT 900.997.253, certifica que, de acuerdo c",
+        "value": "KIRA SAS"
+      },
+      {
+        "fingerprint": "CERTIFICACION DE RETENCIONES DE ICA de propiedad de GRILLO RUBIANO LILIANA identificado",
+        "value": "GRILLO RUBIANO LILIANA"
+      },
+      {
+        "fingerprint": "CERTIFICACION DE RETENCIONES DE ICA de propiedad de GRILLO RUBIANO FERNANDO ANTONIO identificado",
+        "value": "GRILLO RUBIANO FERNANDO ANTONIO"
+      },
+      {
+        "fingerprint": "CERTIFICACION DE RETENCIONES DE ICA de propiedad de SALGADO QUINTERO FERNANDO identificado",
+        "value": "SALGADO QUINTERO FERNANDO"
+      },
+      {
+        "fingerprint": "CERTIFICACION DE RETENCIONES DE ICA de propiedad de AMAYA AMAYA NANCY CONSUELO identificado",
+        "value": "AMAYA AMAYA NANCY CONSUELO"
+      },
+      {
+        "fingerprint": "CERTIFICACION DE RETENCIONES DE ICA de propiedad de SOCIEDAD DONOK SAS identificado con NIT",
+        "value": "SOCIEDAD DONOK SAS"
+      },
+      {
+        "fingerprint": "CERTIFICACION DE RETENCIONES DE ICA de propiedad de KIRA SAS identificado con NIT",
+        "value": "KIRA SAS"
+      },
+      {
+        "fingerprint": "CERTIFICACION DE RETENCIONES DE ICA de propiedad de INVERSIONES JASSIR NAFFAH Y CIA LTDA identificado",
+        "value": "INVERSIONES JASSIR NAFFAH Y CIA LTDA"
+      }
+    ]
+  },
+  "10": {
+    "numero_factura": [
+      {
+        "fingerprint": "FACTURA ELECTRÓNICA DE VENTA No. F491276 ACEVEDO & CIA SAS ASESORES INMOBILIARIOS CRA 9 NO 53-81 PISO 1 Teléfonos: PBX 3478755 NIT: 860026620 M.A. 033 E-mail: facturacion@acevedoycia.com Ciudad: BOGOTA SEÑORES: ALIMENTOS CRIOLLOS S.A. CC/NIT: 800145103 Fecha Factura Marzo 01,2023 Fecha Vencimiento Marzo 06, 2023 DIRECCION: AV CL 24 69 23 LC 13A Inmueble:1306 Teléfono: 6366006 Ciudad: Bogota D.C It",
+        "value": "491276"
+      },
+      {
+        "fingerprint": "FACTURA ELECTRONICA DE VENTA No. F491276 SEÑORES: ALIMENTOS CRIOLLOS S.A.",
+        "value": "491276"
+      }
+    ],
+    "arrendatario": [
+      {
+        "fingerprint": "FACTURA ELECTRÓNICA DE VENTA No. F491276 ACEVEDO & CIA SAS ASESORES INMOBILIARIOS CRA 9 NO 53-81 PISO 1 Teléfonos: PBX 3478755 NIT: 860026620 M.A. 033 E-mail: facturacion@acevedoycia.com Ciudad: BOGOTA SEÑORES: ALIMENTOS CRIOLLOS S.A. CC/NIT: 800145103 Fecha Factura Marzo 01,2023 Fecha Vencimiento Marzo 06, 2023 DIRECCION: AV CL 24 69 23 LC 13A Inmueble:1306 Teléfono: 6366006 Ciudad: Bogota D.C It",
+        "value": "ALIMENTOS CRIOLLOS S.A."
+      },
+      {
+        "fingerprint": "FACTURA ELECTRONICA DE VENTA No. F491276 SEÑORES: ALIMENTOS CRIOLLOS S.A. CC/NIT: 800145103",
+        "value": "ALIMENTOS CRIOLLOS S.A."
+      },
+      {
+        "fingerprint": "FACTURA ELECTRONICA DE VENTA No. F500448 SEÑORES: VELASQUEZ IBAÑEZ GUILLERMO CC/NIT: 79570086",
+        "value": "VELASQUEZ IBAÑEZ GUILLERMO"
+      },
+      {
+        "fingerprint": "FACTURA ELECTRONICA DE VENTA No. F487907 SEÑORES: BUHLER SAS CC/NIT: 900455307",
+        "value": "BUHLER SAS"
+      },
+      {
+        "fingerprint": "FACTURA ELECTRONICA DE VENTA No. F487910 SEÑORES: TOTAL LOGISTICS CARGO SAS CC/NIT: 900446365",
+        "value": "TOTAL LOGISTICS CARGO SAS"
+      },
+      {
+        "fingerprint": "FACTURA ELECTRONICA DE VENTA No. F487964 SEÑORES: GJ COMUNICACIONES SAS CC/NIT: 900425857",
+        "value": "GJ COMUNICACIONES SAS"
+      },
+      {
+        "fingerprint": "FACTURA ELECTRONICA DE VENTA No. F488003 SEÑORES: EXCELCREDIT S.A. CC/NIT: 900591195",
+        "value": "EXCELCREDIT S.A."
+      },
+      {
+        "fingerprint": "FACTURA ELECTRONICA DE VENTA No. F495739 SEÑORES: TOTAL LOGISTICS CARGO SAS CC/NIT: 900446365",
+        "value": "TOTAL LOGISTICS CARGO SAS"
+      },
+      {
+        "fingerprint": "FACTURA ELECTRONICA DE VENTA No. F494361 SEÑORES: ALIMENTOS CRIOLLOS S.A.",
+        "value": "ALIMENTOS CRIOLLOS S.A."
+      },
+      {
+        "fingerprint": "FACTURA ELECTRONICA DE VENTA FE-123456 SEÑORES: ESTRUCTURAS SOSTENIBLES SAS",
+        "value": "ESTRUCTURAS SOSTENIBLES SAS"
+      },
+      {
+        "fingerprint": "FACTURA ELECTRONICA DE VENTA FV-789012 SEÑORES: CENTRY CARROCERIAS SAS",
+        "value": "CENTRY CARROCERIAS SAS"
+      },
+      {
+        "fingerprint": "FACTURA ELECTRONICA DE VENTA FE-345678 SEÑORES: YILIN SAS",
+        "value": "YILIN SAS"
+      }
+    ]
+  },
+  "7": {
+    "arrendatario": [
+      {
+        "fingerprint": "M.A. 033 Versión: 6 ene 2022 CONTRATO DE ARRENDAMIENTO COMERCIAL No. 2887 Entre los suscritos: ACEVEDO y CIA. SAS. ASESORES INMOBILIARIOS, Sociedad Comercial domiciliada en Bogotá D.C., con Matrícula de Arrendador No. 033, Representada Legalmente por quien en su nombre suscribe este Contrato, quien en adelante se denominará El Arrendador, por una parte y por la otra: la sociedad ESTRUCTURAS SOSTEN",
+        "value": "ESTRUCTURAS SOSTENIBLES SAS"
+      },
+      {
+        "fingerprint": "CONTRATO DE ARRENDAMIENTO COMERCIAL por la otra: la sociedad JOSEPH LOVE S.A.S Nit. 901.132.000",
+        "value": "JOSEPH LOVE S.A.S"
+      },
+      {
+        "fingerprint": "CONTRATO DE ARRENDAMIENTO COMERCIAL por la otra: la sociedad PRODUCTOS CAPILARES LZ SAS Nit. 901.251.017",
+        "value": "PRODUCTOS CAPILARES LZ SAS"
+      },
+      {
+        "fingerprint": "CONTRATO DE ARRENDAMIENTO COMERCIAL por la otra: la sociedad BUHLER SAS Nit. 900.455.307",
+        "value": "BUHLER SAS"
+      },
+      {
+        "fingerprint": "CONTRATO DE ARRENDAMIENTO COMERCIAL por la otra: la sociedad GJ COMUNICACIONES SAS Nit. 900.425.857",
+        "value": "GJ COMUNICACIONES SAS"
+      },
+      {
+        "fingerprint": "CONTRATO DE ARRENDAMIENTO COMERCIAL por la otra: la sociedad TOTAL LOGISTICS CARGO SAS Nit. 900.446.365",
+        "value": "TOTAL LOGISTICS CARGO SAS"
+      },
+      {
+        "fingerprint": "CONTRATO DE ARRENDAMIENTO COMERCIAL por la otra: la sociedad EXCELCREDIT S.A. Nit. 900.591.195",
+        "value": "EXCELCREDIT S.A."
+      },
+      {
+        "fingerprint": "CONTRATO DE ARRENDAMIENTO COMERCIAL por la otra: la sociedad ALIMENTOS CRIOLLOS S.A. Nit. 800.145.103",
+        "value": "ALIMENTOS CRIOLLOS S.A."
+      },
+      {
+        "fingerprint": "CONTRATO DE ARRENDAMIENTO COMERCIAL por la otra: la sociedad CENTRY CARROCERIAS SAS Nit. 901.369.693",
+        "value": "CENTRY CARROCERIAS SAS"
+      },
+      {
+        "fingerprint": "CONTRATO DE ARRENDAMIENTO COMERCIAL por la otra: la sociedad YILIN SAS Nit. 901.194.838",
+        "value": "YILIN SAS"
+      },
+      {
+        "fingerprint": "CONTRATO DE ARRENDAMIENTO COMERCIAL por la otra: la sociedad IE2 SAS Nit. 900.729.595",
+        "value": "IE2 SAS"
+      },
+      {
+        "fingerprint": "CONTRATO DE ARRENDAMIENTO COMERCIAL por la otra: la sociedad DIGITAL MARKETPLACE Nit. 901.306.767",
+        "value": "DIGITAL MARKETPLACE"
+      },
+      {
+        "fingerprint": "CONTRATO DE ARRENDAMIENTO COMERCIAL por la otra: la sociedad COLVANES S A S Nit. 800.185.306",
+        "value": "COLVANES S A S"
+      },
+      {
+        "fingerprint": "CONTRATO DE ARRENDAMIENTO COMERCIAL por la otra: la sociedad EXCELCREDIT S.A. Nit. 900.591.195 quien para efectos de este Contrato se denominará El Arrendatario",
+        "value": "EXCELCREDIT S.A."
+      },
+      {
+        "fingerprint": "CONTRATO DE ARRENDAMIENTO por la otra: VELASQUEZ IBAÑEZ GUILLERMO, identificado con CC 79.570.086",
+        "value": "VELASQUEZ IBAÑEZ GUILLERMO"
+      },
+      {
+        "fingerprint": "CONTRATO DE ARRENDAMIENTO la otra parte: SALAMANCA RODRIGUEZ MANUEL, identificado con CC 4.178.758",
+        "value": "SALAMANCA RODRIGUEZ MANUEL"
+      },
+      {
+        "fingerprint": "",
+        "value": "JOSEPH LOVE S.A.S."
+      }
+    ]
+  },
+  "8": {
+    "propietario": [
+      {
+        "fingerprint": "Entre los suscritos: ADOLFO. MARÍA. GOMEZ GIRALDO -mayor_ de: edad, vecino. (a). de. esta ciudad, .. identificado (a) como aparece al pie de su firma, quien en el texto de este contrato se denominará EL (LA) PROPIETARIO (4), de una parte y ACEVEDO 8 CIA LTDA. Asesores Inmobiliarios; sociedad legalmente “constituida, “con: Matrícula “de” Arrendador NN” 033, quien” se llamará EL ADMINISTRADOR, hemós",
+        "value": "ADOLFO MARÍA GOMEZ GIRALDO"
+      },
+      {
+        "fingerprint": "CONTRATO DE ADMINISTRACION Entre los suscritos: ROBLES ANGEL ROBERTO mayor de edad",
+        "value": "ROBLES ANGEL ROBERTO"
+      },
+      {
+        "fingerprint": "CONTRATO DE ADMINISTRACION Entre los suscritos: SALGADO QUINTERO FERNANDO mayor de edad",
+        "value": "SALGADO QUINTERO FERNANDO"
+      },
+      {
+        "fingerprint": "CONTRATO DE ADMINISTRACION Entre los suscritos: GRILLO RUBIANO LILIANA mayor de edad",
+        "value": "GRILLO RUBIANO LILIANA"
+      },
+      {
+        "fingerprint": "CONTRATO DE ADMINISTRACION Entre los suscritos: GRILLO RUBIANO FERNANDO ANTONIO mayor de edad",
+        "value": "GRILLO RUBIANO FERNANDO ANTONIO"
+      },
+      {
+        "fingerprint": "CONTRATO DE ADMINISTRACION Entre los suscritos: AMAYA AMAYA NANCY CONSUELO mayor de edad",
+        "value": "AMAYA AMAYA NANCY CONSUELO"
+      },
+      {
+        "fingerprint": "CONTRATO DE ADMINISTRACION Entre los suscritos: LILCHYN DE HERNANDEZ MARIA ENIDT mayor de edad",
+        "value": "LILCHYN DE HERNANDEZ MARIA ENIDT"
+      },
+      {
+        "fingerprint": "CONTRATO DE ADMINISTRACION Entre los suscritos: INVERSIONES JASSIR NAFFAH Y CIA LTDA, identificado",
+        "value": "INVERSIONES JASSIR NAFFAH Y CIA LTDA"
+      },
+      {
+        "fingerprint": "CONTRATO DE ADMINISTRACION Entre los suscritos: SOCIEDAD DONOK SAS, identificado con NIT",
+        "value": "SOCIEDAD DONOK SAS"
+      },
+      {
+        "fingerprint": "CONTRATO DE ADMINISTRACION Entre los suscritos: KIRA SAS, identificado con NIT",
+        "value": "KIRA SAS"
+      },
+      {
+        "fingerprint": "CONTRATO DE MANDATO EL MANDANTE: GOMEZ GIRALDO ADOLFO MARIA, identificado con CC",
+        "value": "GOMEZ GIRALDO ADOLFO MARIA"
+      },
+      {
+        "fingerprint": "CONTRATO DE MANDATO EL MANDANTE: ROBLES ANGEL ROBERTO, identificado con CC 19352183",
+        "value": "ROBLES ANGEL ROBERTO"
+      },
+      {
+        "fingerprint": "Entre los suscritos: ADOLFO. MARIA. GOMEZ GIRALDO mayor_ de edad",
+        "value": "ADOLFO MARIA GOMEZ GIRALDO"
+      },
+      {
+        "fingerprint": "Entre los suscritos: LILCHYN. DE HERNANDEZ. MARIA ENIDT mayor de edad",
+        "value": "LILCHYN DE HERNANDEZ MARIA ENIDT"
+      },
+      {
+        "fingerprint": "Entre los suscritos: INVERSIONES JASSIR NAFFAH Y CIA. LTDA. identificado",
+        "value": "INVERSIONES JASSIR NAFFAH Y CIA LTDA"
+      },
+      {
+        "fingerprint": "",
+        "value": "ROBERTO ROBLES ANGEL"
+      }
+    ]
+  },
+  "5": {
+    "destinatario": [
+      {
+        "fingerprint": "SOLICITUD CERTIFICADOS RETENCION DE ICA Señores GOMEZ GIRALDO ADOLFO MARIA",
+        "value": "GOMEZ GIRALDO ADOLFO MARIA"
+      },
+      {
+        "fingerprint": "SOLICITUD CERTIFICADOS RETENCION ICA Señores ROBLES ANGEL ROBERTO CC 19352183",
+        "value": "ROBLES ANGEL ROBERTO"
+      },
+      {
+        "fingerprint": "SOLICITUD CERTIFICADOS RETENCION ICA Señores SALGADO QUINTERO FERNANDO",
+        "value": "SALGADO QUINTERO FERNANDO"
+      },
+      {
+        "fingerprint": "SOLICITUD CERTIFICADOS RETENCION ICA Señores GRILLO RUBIANO LILIANA",
+        "value": "GRILLO RUBIANO LILIANA"
+      },
+      {
+        "fingerprint": "SOLICITUD CERTIFICADOS RETENCION ICA Señores AMAYA AMAYA NANCY CONSUELO",
+        "value": "AMAYA AMAYA NANCY CONSUELO"
+      },
+      {
+        "fingerprint": "SOLICITUD CERTIFICADOS RETENCION ICA Señores LILCHYN DE HERNANDEZ MARIA ENIDT",
+        "value": "LILCHYN DE HERNANDEZ MARIA ENIDT"
+      },
+      {
+        "fingerprint": "SOLICITUD CERTIFICADOS RETENCION ICA Señores GRILLO RUBIANO FERNANDO ANTONIO",
+        "value": "GRILLO RUBIANO FERNANDO ANTONIO"
+      },
+      {
+        "fingerprint": "SOLICITUD CERTIFICADOS RETENCION ICA Señores INVERSIONES JASSIR NAFFAH Y CIA LTDA",
+        "value": "INVERSIONES JASSIR NAFFAH Y CIA LTDA"
+      },
+      {
+        "fingerprint": "SOLICITUD CERTIFICADOS RETENCION ICA Señores SOCIEDAD DONOK SAS",
+        "value": "SOCIEDAD DONOK SAS"
+      },
+      {
+        "fingerprint": "SOLICITUD CERTIFICADOS RETENCION ICA Señores KIRA SAS",
+        "value": "KIRA SAS"
+      },
+      {
+        "fingerprint": "DIA MES AÑO FECHA DE EXPEDICION EXCELCREDIT S.A NIT: 900.591.195 - 7 DIRECCION: CRA 14 # 93A - 30 CERTIFICADO DE RETENCION EN LA FUENTE POR INDUSTRIA Y COMERCIO 30 01 2024 / / Razón social o apellidos y nombre a quien se le practicó Rázon social o apellidos y nombres del agente retenedor Departamento Dirección del agente retenedor Municipio Ciudad donde se practicó la retención BOGOTÁ CUNDINAMARCA",
+        "value": "EXCELCREDIT S.A"
+      },
+      {
+        "fingerprint": "CERTIFICADO DE INDUSTRIA Y COMERCIO AÑO GRAVABLE 2023 Consecutivo Agente Retenedor Nit ó Cédula Dirección Ciudad Retenido a NIT/Cedula GJ COMUNICACIONES SAS 900425857 AVDA 7 113 16 PISO 4 BOGOTÁ 1 MIRO GRUPO INMOBILIARIOS SAS 900791083 CONCEPTO DEL PAGO SUJETO A RETENCION MONTO VALOR RETENIDO 9.66 POR MIL RTE ICA PROVEEDORES 80,995,872.00 782,420.00 El valor retenido fué consignado en la Tesoreria",
+        "value": "GJ COMUNICACIONES SAS"
+      }
+    ]
+  },
+  "9": {
+    "destinatario": [
+      {
+        "fingerprint": "SOLICITUD DE CORRECCION INFORMACION EXOGENA DISTRITAL Señores DIAN BOGOTA",
+        "value": "DIAN BOGOTA"
+      },
+      {
+        "fingerprint": "SOLICITUD DE CORRECCION INFORMACION EXOGENA DISTRITAL Señores SECRETARIA DE HACIENDA DISTRITAL",
+        "value": "SECRETARIA DE HACIENDA DISTRITAL"
+      },
+      {
+        "fingerprint": "SOLICITUD CORRECCION EXOGENA Señores GOMEZ GIRALDO ADOLFO MARIA",
+        "value": "GOMEZ GIRALDO ADOLFO MARIA"
+      },
+      {
+        "fingerprint": "SOLICITUD CORRECCION EXOGENA Señores ROBLES ANGEL ROBERTO",
+        "value": "ROBLES ANGEL ROBERTO"
+      },
+      {
+        "fingerprint": "SOLICITUD CORRECCION EXOGENA Señores AMAYA AMAYA NANCY CONSUELO",
+        "value": "AMAYA AMAYA NANCY CONSUELO"
+      },
+      {
+        "fingerprint": "SOLICITUD CORRECCION EXOGENA Señores INVERSIONES JASSIR NAFFAH Y CIA LTDA",
+        "value": "INVERSIONES JASSIR NAFFAH Y CIA LTDA"
+      }
+    ]
+  }
+}

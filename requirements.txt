@@ -1,0 +1,56 @@
+# ── Obligatorias ─────────────────────────────────────────────────────────────
+
+# Extracción de texto y renderizado de páginas PDF
+PyMuPDF>=1.23.0
+
+# CLI visual con tablas, colores y prompts interactivos
+rich>=13.0.0
+
+# Variables de entorno (.env)
+python-dotenv>=1.0.0
+
+# ── OCR (requerido para PDFs escaneados — P8 y similares) ────────────────────
+
+# Wrapper Python para Tesseract
+pytesseract>=0.3.10
+
+# Procesamiento de imágenes para OCR
+Pillow>=10.0.0
+
+# Tesseract debe instalarse por separado en el sistema operativo:
+#
+#   Ubuntu / Debian:
+#     sudo apt install tesseract-ocr tesseract-ocr-spa
+#
+#   macOS:
+#     brew install tesseract
+#     brew install tesseract-lang   (incluye español)
+#
+#   Windows:
+#     Descargar instalador de https://github.com/UB-Mannheim/tesseract/wiki
+#     Agregar al PATH: C:\Program Files\Tesseract-OCR
+#     Instalar paquete de idioma español (spa.traineddata)
+
+# ── Motores LLM locales (instalar solo el que se vaya a usar) ─────────────────
+
+# Opción A — Ollama (recomendado, no requiere paquete Python)
+#   Instalar: https://ollama.com
+#   Modelos recomendados:
+#     ollama pull llama3        (~4 GB, mejor calidad)
+#     ollama pull mistral       (~4 GB, buena extracción)
+#     ollama pull phi3          (~2 GB, más liviano)
+#     ollama pull gemma2        (~5 GB, muy preciso)
+#   Luego en config.py: EXTRACTION_ENGINE = "ollama"
+
+# Opción B — LM Studio / Jan / llama.cpp (OpenAI-compatible, no requiere paquete)
+#   Configurar en config.py:
+#     EXTRACTION_ENGINE = "openai_compat"
+#     OPENAI_COMPAT_BASE_URL = "http://localhost:1234/v1"
+
+# Opción C — transformers (GPU local, avanzado)
+#   pip install transformers torch accelerate
+
+# ── Instalación rápida ────────────────────────────────────────────────────────
+#
+#   pip install PyMuPDF rich python-dotenv pytesseract Pillow
+#
