@@ -17,6 +17,9 @@ pytesseract>=0.3.10
 # Procesamiento de imágenes para OCR
 Pillow>=10.0.0
 
+# ── Generación de PDFs de salida (Caratula) ───────────────────────────
+reportlab>=4.0.0
+
 # Tesseract debe instalarse por separado en el sistema operativo:
 #
 #   Ubuntu / Debian:

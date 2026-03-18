@@ -1,6 +1,7 @@
 """
 Procesador PDF — CLI interactivo y por argumentos
 Uso: python main.py [--input DIR] [--output DIR] [--prueba N] [--no-zip] [--llm]
+     python main.py --caratula [--input RE.pdf] [--output DIR]
 """
 import sys
 import argparse
@@ -9,10 +10,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 try:
-    from rich.console import Console
-    from rich.table   import Table
-    from rich.prompt  import Prompt, Confirm
-    from rich.panel   import Panel
+    from rich.console  import Console
+    from rich.table    import Table
+    from rich.prompt   import Prompt, Confirm
+    from rich.panel    import Panel
     from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn
     RICH = True
 except ImportError:
@@ -24,7 +25,7 @@ from config    import DEFAULT_OUTPUT_DIR, DEFAULT_INPUT_DIR, PRUEBAS_DISPONIBLES
 console = Console() if RICH else None
 
 
-# ── Salida ───────────────────────────────────────────────────────────────────
+# ── I/O helpers ──────────────────────────────────────────────────────────────
 
 def _print(msg: str, style: str = ""):
     if RICH:
@@ -38,6 +39,14 @@ def _ask(prompt: str) -> str:
     if RICH:
         return Prompt.ask(prompt, default="")
     return input(f"{prompt}: ").strip()
+
+
+def _rich_ask(prompt: str) -> str:
+    return Prompt.ask(f"[cyan]{prompt}[/cyan]", default="")
+
+
+def _rich_print(msg: str, style: str = ""):
+    console.print(msg)
 
 
 def _header():
@@ -74,11 +83,11 @@ def _results_table(batch: BatchResult):
         return
 
     table = Table(show_header=True, header_style="bold cyan", expand=True)
-    table.add_column("Archivo original",  style="dim",   no_wrap=True, max_width=36)
-    table.add_column("Nombre generado",   style="green", no_wrap=False)
-    table.add_column("Motor",             width=14)
-    table.add_column("Conf.",             width=6)
-    table.add_column("Estado",            width=9)
+    table.add_column("Archivo original", style="dim",   no_wrap=True, max_width=36)
+    table.add_column("Nombre generado",  style="green", no_wrap=False)
+    table.add_column("Motor",            width=14)
+    table.add_column("Conf.",            width=6)
+    table.add_column("Estado",           width=9)
 
     for f in batch.files:
         if f.ok and not f.needs_correction:
@@ -115,15 +124,7 @@ def _print_summary(batch: BatchResult):
         _print(f"\n[bold green]ZIP:[/bold green] {batch.zip_path}")
 
 
-# ── Sesión de corrección interactiva con Rich ────────────────────────────────
-
-def _rich_ask(prompt: str) -> str:
-    return Prompt.ask(f"[cyan]{prompt}[/cyan]", default="")
-
-
-def _rich_print(msg: str, style: str = ""):
-    console.print(msg)
-
+# ── Corrección interactiva ────────────────────────────────────────────────────
 
 def _run_correction(proc: Processor, batch: BatchResult,
                     output_dir: Path, pack_zip: bool):
@@ -157,22 +158,74 @@ def _run_correction(proc: Processor, batch: BatchResult,
         _print("[dim]No se realizaron correcciones.[/dim]")
 
 
-# ── Modo interactivo ─────────────────────────────────────────────────────────
+# ── Carátula Requerimiento Especial RETEICA ───────────────────────────────────
+
+def cmd_caratula(input_path=None, output_dir=None):
+    from core.extractor               import PDFExtractor
+    from core.requerimiento_extractor import extract_requerimiento
+    from core.caratula_generator      import generar_caratula
+
+    ask = _rich_ask if RICH else lambda p: input(f"{p}: ").strip()
+
+    if input_path:
+        pdf_path = Path(input_path)
+    else:
+        ruta = ask("Ruta del PDF del requerimiento")
+        pdf_path = Path(ruta.strip())
+
+    if not pdf_path.exists():
+        _print(f"[red]Archivo no encontrado: {pdf_path}[/red]")
+        return
+
+    _print(f"Leyendo: [bold]{pdf_path.name}[/bold]")
+
+    text  = PDFExtractor().extract(pdf_path)
+    datos = extract_requerimiento(text)
+
+    if not datos.contribuyente:
+        _print("[red]No se pudo detectar el contribuyente. Verifica que sea un RE RETEICA.[/red]")
+        return
+
+    nombre_salida = f"Caratula RE {datos.expediente or pdf_path.stem}.pdf"
+    dest_dir      = Path(output_dir or str(DEFAULT_OUTPUT_DIR))
+    output_path   = dest_dir / nombre_salida
+
+    generar_caratula(datos, output_path)
+
+    _print(f"\n[green]Carátula generada:[/green] {output_path}")
+    _print(f"  Contribuyente: {datos.contribuyente}")
+    _print(f"  NIT:           {datos.nit}")
+    _print(f"  Expediente:    {datos.expediente}")
+
+    return output_path
+
+
+# ── Modo interactivo ──────────────────────────────────────────────────────────
 
 def _interactive(proc: Processor):
     _header()
     _engine_status(proc)
+
+    modo = _ask(
+        "[cyan]Modo[/cyan]: [1] Renombrar PDFs  [2] Carátula Requerimiento RETEICA  (Enter=1)"
+    ).strip()
+
+    if modo == "2":
+        cmd_caratula()
+        return
 
     input_dir = Path(
         _ask(f"[cyan]Carpeta con PDFs[/cyan] (default: {DEFAULT_INPUT_DIR})")
         or str(DEFAULT_INPUT_DIR)
     )
     if not input_dir.exists():
-        _print(f"[red]La carpeta '{input_dir}' no existe.[/red]"); return
+        _print(f"[red]La carpeta '{input_dir}' no existe.[/red]")
+        return
 
     pdfs = list(input_dir.glob("*.pdf"))
     if not pdfs:
-        _print("[red]No se encontraron PDFs.[/red]"); return
+        _print("[red]No se encontraron PDFs.[/red]")
+        return
 
     _print(f"\nEncontrados: [bold]{len(pdfs)}[/bold] PDFs\n")
 
@@ -181,8 +234,10 @@ def _interactive(proc: Processor):
     )
     prueba = int(prueba_str) if prueba_str.strip().isdigit() else None
 
-    output_dir = Path(_ask(f"[cyan]Carpeta de salida[/cyan] (default: {DEFAULT_OUTPUT_DIR})")
-                      or str(DEFAULT_OUTPUT_DIR))
+    output_dir = Path(
+        _ask(f"[cyan]Carpeta de salida[/cyan] (default: {DEFAULT_OUTPUT_DIR})")
+        or str(DEFAULT_OUTPUT_DIR)
+    )
 
     pack = (
         Confirm.ask("¿Empaquetar en ZIP?", default=True)
@@ -192,15 +247,15 @@ def _interactive(proc: Processor):
     _print("\n[bold]Procesando...[/bold]\n")
 
     if RICH:
-        results = []
         with Progress(SpinnerColumn(), TextColumn("{task.description}"),
                       BarColumn(), TaskProgressColumn(), console=console) as prog:
             task = prog.add_task("Procesando PDFs", total=len(pdfs))
 
             def on_progress(current, total, fr):
-                results.append(fr)
-                mark = "[green]✓[/green]" if (fr.ok and not fr.needs_correction) \
-                       else ("[yellow]⚠[/yellow]" if fr.needs_correction else "[red]✗[/red]")
+                mark = (
+                    "[green]✓[/green]" if (fr.ok and not fr.needs_correction)
+                    else ("[yellow]⚠[/yellow]" if fr.needs_correction else "[red]✗[/red]")
+                )
                 prog.update(task, advance=1,
                             description=f"{mark} {fr.src.name[:42]}")
 
@@ -215,12 +270,10 @@ def _interactive(proc: Processor):
 
     _print("")
     _results_table(batch)
-
-    # Sesión de corrección para archivos incompletos
     _run_correction(proc, batch, output_dir, pack)
 
 
-# ── Modo CLI directo ─────────────────────────────────────────────────────────
+# ── Modo CLI directo ──────────────────────────────────────────────────────────
 
 def _cli(args):
     proc = Processor(force_llm=args.llm)
@@ -240,26 +293,31 @@ def _cli(args):
         output_dir=output_dir, pack_zip=pack)
 
     _results_table(batch)
-
-    # Corrección interactiva también en modo CLI
     _run_correction(proc, batch, output_dir, pack)
 
     if batch.error_count > 0 and not batch.pending_correction:
         sys.exit(1)
 
 
-# ── Entry point ──────────────────────────────────────────────────────────────
+# ── Entrada ───────────────────────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser(
         description="PDF Processor — Renombrado inteligente de documentos contables")
-    parser.add_argument("--input",  "-i", default=None)
-    parser.add_argument("--output", "-o", default=str(DEFAULT_OUTPUT_DIR))
-    parser.add_argument("--prueba", "-p", type=int, default=None,
+    parser.add_argument("--input",    "-i", default=None,
+                        help="Carpeta de PDFs (renombrar) o ruta del RE.pdf (--caratula)")
+    parser.add_argument("--output",   "-o", default=str(DEFAULT_OUTPUT_DIR))
+    parser.add_argument("--prueba",   "-p", type=int, default=None,
                         choices=PRUEBAS_DISPONIBLES)
-    parser.add_argument("--no-zip", action="store_true")
-    parser.add_argument("--llm",    action="store_true")
+    parser.add_argument("--no-zip",   action="store_true")
+    parser.add_argument("--llm",      action="store_true")
+    parser.add_argument("--caratula", action="store_true",
+                        help="Generar carátula de un Requerimiento Especial RETEICA")
     args = parser.parse_args()
+
+    if args.caratula:
+        cmd_caratula(input_path=args.input, output_dir=args.output)
+        return
 
     proc = Processor(force_llm=args.llm)
 
